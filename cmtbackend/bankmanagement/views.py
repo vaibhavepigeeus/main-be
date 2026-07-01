@@ -903,7 +903,6 @@ class MultiAssignTransactionsToUserViewSet(viewsets.ModelViewSet):
                     </div>
                     <p>Dear User,</p>
                     <p>A new transaction has been assigned to you. Please review it as soon as possible.</p>
-                    <p>If you have any questions, email us at <a href="mailto:support@mosaicinsurance.com">support@mosaicinsurance.com</a>.</p>
                     <p>If you no longer wish to receive these email notifications, you can unsubscribe by replying to this email with "Unsubscribe" in the subject line.</p>
 
                     <div class="email-footer">
@@ -4701,7 +4700,6 @@ class BankReconciliationViewSet(viewsets.ModelViewSet):
                         </div>
                         <p>Dear User,</p>
                         <p>A new rejected file {file_name} has been assigned to you. Please review it as soon as possible.</p>
-                        <p>If you have any questions, email us at <a href="mailto:support@mosaicinsurance.com">support@mosaicinsurance.com</a>.</p>
                         <p>If you no longer wish to receive these email notifications, you can unsubscribe by replying to this email with "Unsubscribe" in the subject line.</p>
 
                         <div class="email-footer">

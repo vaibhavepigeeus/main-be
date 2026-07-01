@@ -245,16 +245,15 @@ WORK_FLOW_INITIATE_BODY = """
             <body>
                 <div class="email-body">
                     <div class="email-header">
-                        <img src="{imagepath}" alt="Mosaic Insurance Logo">
+                        <img src="{imagepath}" alt="Logo">
                     </div>
                     <p>Dear {reviewer_approver},</p>
                     <p>A new worklist item {transaction_id} has been assigned to you, initiated by {initiator}. Please review it as soon as possible.</p>
 
-                    <p>If you have any questions, email us at <a href="mailto:support@mosaicinsurance.com">support@mosaicinsurance.com</a>.</p>
                     <p>If you no longer wish to receive these email notifications, you can unsubscribe by replying to this email with "Unsubscribe" in the subject line.</p>
 
                     <div class="email-footer">
-                        <p>Regards,<br>Mosaic Insurance</p>
+                        <p>Regards</p>
                     </div>
                     <p>This message, including any attachments, may include proprietary or confidential material. Any distribution or use of this communication by anyone other than the intended recipient(s) is prohibited. If you are not the intended recipient, please notify the sender by replying to this message and then deleting it from your system.</p>
                 </div>
@@ -268,18 +267,11 @@ WORK_FLOW_CHANGE_STATUS_BODY = """
             </head>
             <body>
                 <div class="email-body">
-                    <div class="email-header">
-                        <img src="{imagepath}" alt="Mosaic Insurance Logo">
-                    </div>
                     <p>Dear {initiator},,</p>
                     <p>The worklist item {transaction_id} initiated by you has been {status} by {reviewer_approver}.</p>
 
-                    <p>If you have any questions, email us at <a href="mailto:support@mosaicinsurance.com">support@mosaicinsurance.com</a>.</p>
                     <p>If you no longer wish to receive these email notifications, you can unsubscribe by replying to this email with "Unsubscribe" in the subject line.</p>
 
-                    <div class="email-footer">
-                        <p>Regards,<br>Mosaic Insurance</p>
-                    </div>
                     <p>This message, including any attachments, may include proprietary or confidential material. Any distribution or use of this communication by anyone other than the intended recipient(s) is prohibited. If you are not the intended recipient, please notify the sender by replying to this message and then deleting it from your system.</p>
                 </div>
             </body>
@@ -293,17 +285,13 @@ WORK_FLOW_CHANGE_STATUS_REVIEWER_BODY = """
             <body>
                 <div class="email-body">
                     <div class="email-header">
-                        <img src="{imagepath}" alt="Mosaic Insurance Logo">
+                        <img src="{imagepath}" alt="insurprerecon Logo">
                     </div>
                     <p>Dear {reviewer_approver},</p>
                     <p>A new worklist item {transaction_id} has been assigned to you, initiated by {initiator}. Please review it as soon as possible.</p>
 
-                    <p>If you have any questions, email us at <a href="mailto:support@mosaicinsurance.com">support@mosaicinsurance.com</a>.</p>
                     <p>If you no longer wish to receive these email notifications, you can unsubscribe by replying to this email with "Unsubscribe" in the subject line.</p>
 
-                    <div class="email-footer">
-                        <p>Regards,<br>Mosaic Insurance</p>
-                    </div>
                     <p>This message, including any attachments, may include proprietary or confidential material. Any distribution or use of this communication by anyone other than the intended recipient(s) is prohibited. If you are not the intended recipient, please notify the sender by replying to this message and then deleting it from your system.</p>
                 </div>
             </body>
@@ -317,17 +305,13 @@ WORK_FLOW_CHANGE_STATUS_CONFIRMATION_BODY = """
             <body>
                 <div class="email-body">
                     <div class="email-header">
-                        <img src="{imagepath}" alt="Mosaic Insurance Logo">
+                        <img src="{imagepath}" alt="insurprerecon Logo">
                     </div>
                     <p>Dear {reviewer_approver},</p>
                     <p>Status of {transaction_id} is changed. No further action from your end is required.</p>
 
-                    <p>If you have any questions, email us at <a href="mailto:support@mosaicinsurance.com">support@mosaicinsurance.com</a>.</p>
                     <p>If you no longer wish to receive these email notifications, you can unsubscribe by replying to this email with "Unsubscribe" in the subject line.</p>
 
-                    <div class="email-footer">
-                        <p>Regards,<br>Mosaic Insurance</p>
-                    </div>
                     <p>This message, including any attachments, may include proprietary or confidential material. Any distribution or use of this communication by anyone other than the intended recipient(s) is prohibited. If you are not the intended recipient, please notify the sender by replying to this message and then deleting it from your system.</p>
                 </div>
             </body>
@@ -340,16 +324,9 @@ USER_ONBOARD = """
                 </head>
                 <body>
                     <div class="email-body">
-                        <div class="email-header">
-                            <img src="{imagepath}" alt="Mosaic Insurance Logo">
-                        </div>
                         <p>Dear User,</p>
-                        <p>Welcome to Mosaic Insurance! We are delighted to have you on board.</p>
+                        <p>Welcome to insurprerecon! We are delighted to have you on board.</p>
                         <p>Your one-time password: <strong>{password}</strong></p>
-                        <p>If you have any questions, email us at <a href="mailto:support@mosaicinsurance.com">support@mosaicinsurance.com</a>.</p>
-                        <div class="email-footer">
-                            <p>Regards,<br>Mosaic Insurance</p>
-                        </div>
                     </div>
                 </body>
             </html>
