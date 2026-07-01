@@ -27,6 +27,6 @@ urlpatterns = [
     path('api/bankmanagement/',include('bankmanagement.urls')),
     path('api/payment/',include('payment.urls')),
     path('api/filemanagement/',include('filemanagement.urls')),
-    path('openapi', get_schema_view(title="CMT API DOCUMENTATION",description="CMT Project Api Documentation ",version="1.0.0"), name='openapi-schema'),
-    path('cmt_api_docs/', TemplateView.as_view(template_name='docs.html', extra_context={'schema_url':'openapi-schema'} ), name='api_doc'),
+    path('openapi', get_schema_view(title="API DOCUMENTATION",description="Project Api Documentation ",version="1.0.0"), name='openapi-schema'),
+    path('api_docs/', TemplateView.as_view(template_name='docs.html', extra_context={'schema_url':'openapi-schema'} ), name='api_doc'),
 ]

@@ -59,7 +59,7 @@ def send_rejection_email(file_name, user, error_message):
                 <p>Please review the error message, make the necessary corrections, and upload the file again.</p>
                 <p>If you need any assistance, please don't hesitate to contact our support team.</p>
                 <p>Thank you for your understanding.</p>
-                <p>Best regards,<br>CMT Admin Team</p>
+                <p>Best regards,<br>Admin Team</p>
             </body>
             </html>
             '''
